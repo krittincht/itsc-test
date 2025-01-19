@@ -7,7 +7,7 @@ export const cs_identifier = 'NpUKzTKiGbPo9iskvZ3QrY4C';
 export const cs_hmac_secret = 'jb1mtajroy64cp3wjaxnagsxs2lr4j8t';
 export const cs_url = 'https://cs.synzofficial.com';
 
-export const orgID = 2;
+export const orgID = 7;
 export const areas = [
     'ASSETWISE PUBLIC COMPANY LIMITED',
     'Treasure M Co., Ltd.',
