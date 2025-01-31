@@ -94,7 +94,7 @@ line-height: 21.327px; /* 150% */
 
 }
 .css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
-  color: #461e99;
+  color: #1e8b99;
 }
 .tag{
   color: var(--Purple-Purple100, #461E99);
@@ -144,12 +144,43 @@ line-height: 21.327px; /* 150% */
 }
 
 #content{
-  max-width: 567px;
+  max-width: 768px;
   background-color: #FFF;
   min-height: 100vh;
   margin: 0 auto;
   width: 100%;
 }
+
+@media (min-width: 0px) {
+  #content {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  #content {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 900px) {
+  #content {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #content {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1536px) {
+  #content {
+    max-width: 1536px;
+  }
+}
+
 .bg-login{
   background-image: url(../public/images/bg.png);
   background-repeat: no-repeat;
@@ -165,7 +196,7 @@ line-height: 21.327px; /* 150% */
   background-color: #FFF;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
-  max-width: 567px;
+  max-width: 768px;
   margin: 0 auto;
   width: 100%;
   
@@ -195,7 +226,7 @@ line-height: 21.327px; /* 150% */
   color: #fff;
 }
 .MuiButton-colorPrimary:hover {
-  background-color: #7d5bc4;
+  background-color: #5bacc4;
 }
 .splide {
   position: relative;
@@ -203,9 +234,50 @@ line-height: 21.327px; /* 150% */
   margin: auto -24px;
 }
 
-@media screen and (min-width: 567px) {
+/* @media screen and (min-width: 768px) {
   .css-9emuhu-MuiPaper-root-MuiDrawer-paper{
     background-color: transparent;
     padding-right: 20px;
+  }
+} */
+
+/* Base styles for drawer */
+/* .css-9emuhu-MuiPaper-root-MuiDrawer-paper {
+  background-color: transparent;
+} */
+
+/* Responsive breakpoints */
+@media (min-width: 0px) {
+  .css-9emuhu-MuiPaper-root-MuiDrawer-paper {
+    max-width: 100%;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .css-9emuhu-MuiPaper-root-MuiDrawer-paper {
+    max-width: 600px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 900px) {
+  .css-9emuhu-MuiPaper-root-MuiDrawer-paper {
+    max-width: 768px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .css-9emuhu-MuiPaper-root-MuiDrawer-paper {
+    max-width: 1024px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .css-9emuhu-MuiPaper-root-MuiDrawer-paper {
+    max-width: 1536px;
+    padding-right: 40px;
   }
 }
