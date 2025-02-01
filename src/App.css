@@ -157,9 +157,9 @@ line-height: 21.327px; /* 150% */
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 567px) {
   #content {
-    max-width: 600px;
+    max-width: 567px;
   }
 }
 
@@ -254,9 +254,9 @@ line-height: 21.327px; /* 150% */
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 567px) {
   .css-9emuhu-MuiPaper-root-MuiDrawer-paper {
-    max-width: 600px;
+    max-width: 567px;
     padding-right: 10px;
   }
 }
