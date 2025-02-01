@@ -19,7 +19,7 @@ export function LayoutBottomNav() {
             <Outlet />
             <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 ,maxWidth: {
                         xs: '100%',     // 0px and up
-                        sm: '600px',    // 600px and up
+                        sm: '567px',    // 600px and up
                         md: '768px',    // 900px and up
                         lg: '1024px',   // 1200px and up
                         xl: '1536px'    // 1536px and up
